@@ -80,6 +80,7 @@ firmware_repo="${firmware_repo//tree\/main/trunk}"
 
 # Install/Update script files download repository
 script_repo="https://github.com/ophub/luci-app-amlogic/tree/main/luci-app-amlogic"
+
 # Convert script repository address to svn format
 script_repo="${script_repo//tree\/main/trunk}"
 
